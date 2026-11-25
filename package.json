@@ -1,0 +1,24 @@
+{
+  "name": "tuntun-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio studio/index.ts --port 3030",
+    "cek": "tsc --noEmit",
+    "layer": "node _fondasi/alat/cek-layer/cek-layer.mjs .",
+    "still": "remotion still studio/index.ts",
+    "render": "remotion render studio/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.546",
+    "@remotion/google-fonts": "4.0.546",
+    "@remotion/motion-blur": "4.0.546",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.3",
+    "typescript": "5.5.4"
+  }
+}

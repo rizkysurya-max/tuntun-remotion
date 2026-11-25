@@ -1,0 +1,1 @@
+{ "name": "tuntun-gambar", "private": true, "type": "module", "description": "p5.js & TikZ untuk Remotion (25 Nov 2026)", "dependencies": { "p5": "1.11.13", "node-tikzjax": "1.0.5" } }

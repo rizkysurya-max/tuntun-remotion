@@ -1,0 +1,3 @@
+// tipe ringkas p5 (fungsi yang dipakai di Remotion); fungsi lain tetap ada lewat indeks
+declare class P5 { constructor(sketsa: (p: any) => void, wadah?: HTMLElement); setup: () => void; draw: () => void; noCanvas(): void; noLoop(): void; redraw(n?: number): void; remove(): void; clear(): void; push(): void; pop(): void; pixelDensity(d: number): void; createCanvas(w: number, h: number): any; randomSeed(s: number): void; noiseSeed(s: number): void; noise(x: number, y?: number, z?: number): number; random(a?: any, b?: number): number; map(v: number, a: number, b: number, c: number, d: number, jepit?: boolean): number; lerp(a: number, b: number, t: number): number; [k: string]: any }
+export default P5;

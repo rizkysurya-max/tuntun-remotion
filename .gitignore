@@ -1,0 +1,24 @@
+node_modules/
+out/
+.DS_Store
+__pycache__/
+*.pyc
+.cache/
+komentar/
+*.sebelum-studio
+
+# media & kerja video tidak diunggah
+**/01_VO/*
+**/02_File Premiere/*
+**/03_Hasil/*
+**/04_Asset/*
+!**/.gitkeep
+public/*
+!public/.gitkeep
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.prproj
+*.aep
+*.ai
